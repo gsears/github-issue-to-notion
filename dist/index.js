@@ -43,9 +43,7 @@ const core = __importStar(__nccwpck_require__(186));
 function run() {
     return __awaiter(this, void 0, void 0, function* () {
         try {
-            core.debug(`Outputting salutation ...`);
             core.debug(`Hello ${core.getInput('name')}!`);
-            core.setOutput('done', 'done');
         }
         catch (error) {
             if (error instanceof Error)
